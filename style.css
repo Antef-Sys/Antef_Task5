@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(247, 247, 247);
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Poppins, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    position: relative;
+    width: 100vw;
+    height: 70px;
+    background: rgb(241, 243, 245);
+    
+    
+}
+
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-links {
+    list-style: none;
+    background: rgb(241, 243, 245);
+    
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+    color: gray;
+    background: rgb(241, 243, 245);
+}
+
+/* Username - Right */
+.uname {
+    position: absolute;
+    height: 70%;
+    width: 80px;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(205, 235, 245);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.uname p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+     background: rgb(205, 235, 245);
+    color: rgb(18, 168, 218);
+    font-size: 14px;
+}
+
+/* MAIN AREA */
+main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 70px); /* remove navbar height */
+}
+
+
+.container {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 800px;   /* 500 + 500 */
+    height: 400px;
+
+    
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    background: rgb(247, 247, 247);
+}
+
+
+.right {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    /* border: 2px solid orange; */
+}
+
+.right img{
+    height: 100%;
+    
+}
+
+.heading{
+   
+   height: 130px;
+   padding: 10px;
+   font-size: 22px;
+   color: gray;
+}
+
+.mid-contant{
+    
+    height: 170px;
+    
+  
+}
+
+.mid-contant h1{
+    margin-top: 10px;
+    color: rgb(18, 168, 218);
+    font-size: 45px;
+}
+
+.mid-contant p{
+    margin-top: 15px;
+    color: gray;
+}
+
+.btn{
+    
+    height: 100px;
+
+}
+
+.btn button{
+    margin-top: 10px;
+    height: 50px;
+    width: 175px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background: rgb(92, 168, 239);
+    cursor: pointer;
+}
